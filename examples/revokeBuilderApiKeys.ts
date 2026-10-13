@@ -1,4 +1,4 @@
-import { BuilderConfig } from '@kuestcom/builder-signing-sdk'
+import { BuilderConfig } from '@kuest/builder-signing-sdk'
 import { config as dotenvConfig } from 'dotenv'
 import { ethers } from 'ethers'
 import { resolve } from 'path'

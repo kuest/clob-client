@@ -1,6 +1,6 @@
 # Contribution Guide
 
-Contributions to `@kuestcom/clob-client` are welcome. This document outlines the basic workflow for local development and pull requests.
+Contributions to `@kuest/clob-client` are welcome. This document outlines the basic workflow for local development and pull requests.
 
 ## Getting Started
 

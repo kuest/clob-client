@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible bug in @kuestcom/clob-client
+description: Report a reproducible bug in @kuest/clob-client
 title: '[Bug]: '
 labels:
   - bug
@@ -12,8 +12,8 @@ body:
     id: package_version
     attributes:
       label: Package version
-      description: The @kuestcom/clob-client version from package.json or package-lock.json.
-      placeholder: '@kuestcom/clob-client = "6.0.2"'
+      description: The @kuest/clob-client version from package.json or pnpm-lock.yaml.
+      placeholder: '@kuest/clob-client = "6.0.15"'
     validations:
       required: true
   - type: textarea
@@ -34,8 +34,8 @@ body:
       label: Installed dependencies
       description: Mention the SDK version and any relevant surrounding packages.
       placeholder: |
-        @kuestcom/clob-client 6.0.2
-        @kuestcom/builder-signing-sdk 2.0.0
+        @kuest/clob-client 6.0.15
+        @kuest/builder-signing-sdk 2.0.4
     validations:
       required: false
   - type: textarea
@@ -45,7 +45,7 @@ body:
       description: Provide the smallest code sample, command, or test case that reproduces the issue.
       placeholder: |
         1. Create a new project.
-        2. Install @kuestcom/clob-client.
+        2. Install @kuest/clob-client.
         3. Run this snippet:
 
         ```ts

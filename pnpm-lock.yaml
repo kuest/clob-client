@@ -21,9 +21,9 @@ importers:
 
   .:
     dependencies:
-      '@kuestcom/builder-signing-sdk':
-        specifier: ^2.0.2
-        version: 2.0.2(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)
+      '@kuest/builder-signing-sdk':
+        specifier: ^2.0.4
+        version: 2.0.4(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)
       axios:
         specifier: 1.20.0
         version: 1.20.0(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)
@@ -190,8 +190,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@kuestcom/builder-signing-sdk@2.0.2':
-    resolution: {integrity: sha512-RsMjyN6L7IugVpnpWXooFxE12FBjIAJKHP5FuHmnQOWozbgFFM6qJmXFYffgdUvlLRSpIjTC76Q4J8lCRc2o9w==}
+  '@kuest/builder-signing-sdk@2.0.4':
+    resolution: {integrity: sha512-u95euyY8AAsK7LZ8yCS190acEDeMUvD3geUGfYHkNfqKGzzrVzQVp75+8KqUF84AdiYE0AsOk0x/3EH2z++VsQ==}
 
   '@noble/ciphers@1.3.0':
     resolution: {integrity: sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw==}
@@ -1776,7 +1776,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kuestcom/builder-signing-sdk@2.0.2(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)':
+  '@kuest/builder-signing-sdk@2.0.4(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)':
     dependencies:
       axios: 1.20.0(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)
     transitivePeerDependencies:

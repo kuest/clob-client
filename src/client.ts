@@ -1,4 +1,4 @@
-import type { BuilderConfig, BuilderHeaderPayload } from '@kuestcom/builder-signing-sdk'
+import type { BuilderConfig, BuilderHeaderPayload } from '@kuest/builder-signing-sdk'
 
 import type { RequestOptions } from './http-helpers/index.ts'
 import type { SignatureType, SignedOrder } from './order-utils/index.ts'

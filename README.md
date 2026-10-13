@@ -3,17 +3,17 @@
   Kuest Typescript CLOB Client
 </h1>
 
-[![NPM](https://img.shields.io/npm/v/@kuestcom/clob-client.svg)](https://www.npmjs.com/package/@kuestcom/clob-client)
+[![NPM](https://img.shields.io/npm/v/@kuest/clob-client.svg)](https://www.npmjs.com/package/@kuest/clob-client)
 [![PR](https://github.com/kuest/clob-client/actions/workflows/pr.yml/badge.svg)](https://github.com/kuest/clob-client/actions/workflows/pr.yml)
 
 ### Usage
 
 ```ts
-// npm install @kuestcom/clob-client
+// npm install @kuest/clob-client
 // npm install ethers
 // Client initialization example and dumping API Keys
 
-import { ApiKeyCreds, ClobClient, OrderType, Side, SignatureType } from '@kuestcom/clob-client'
+import { ApiKeyCreds, ClobClient, OrderType, Side, SignatureType } from '@kuest/clob-client'
 import { Wallet } from '@ethersproject/wallet'
 
 const host = 'https://clob.kuest.com'
@@ -61,7 +61,7 @@ See [examples](examples/) for more information
 ### Using viem WalletClient
 
 ```ts
-import { ClobClient } from '@kuestcom/clob-client'
+import { ClobClient } from '@kuest/clob-client'
 import { createWalletClient, http } from 'viem'
 import { polygon } from 'viem/chains'
 import { privateKeyToAccount } from 'viem/accounts'
@@ -82,7 +82,7 @@ const clobClient = new ClobClient(host, 137, walletClient)
 By default, API errors are returned as `{ error: "...", status: ... }` objects. To have the client throw errors instead, pass `throwOnError: true` as the last constructor argument:
 
 ```ts
-import { ClobClient, ApiError, SignatureType } from '@kuestcom/clob-client'
+import { ClobClient, ApiError, SignatureType } from '@kuest/clob-client'
 
 const clobClient = new ClobClient(
   host,

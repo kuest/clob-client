@@ -1,4 +1,4 @@
-import type { BuilderHeaderPayload } from '@kuestcom/builder-signing-sdk'
+import type { BuilderHeaderPayload } from '@kuest/builder-signing-sdk'
 
 import type { ClobSigner } from '../signer.ts'
 import type { ApiKeyCreds, Chain, L1KuestHeader, L2HeaderArgs, L2KuestHeader, L2WithBuilderHeader } from '../types.ts'

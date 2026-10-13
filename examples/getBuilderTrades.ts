@@ -1,4 +1,4 @@
-import { type BuilderApiKeyCreds, BuilderConfig } from '@kuestcom/builder-signing-sdk'
+import { type BuilderApiKeyCreds, BuilderConfig } from '@kuest/builder-signing-sdk'
 import { config as dotenvConfig } from 'dotenv'
 import { ethers } from 'ethers'
 import { resolve } from 'path'

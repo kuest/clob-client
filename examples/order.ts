@@ -1,4 +1,4 @@
-//npm install @kuestcom/clob-client
+//npm install @kuest/clob-client
 //npm install ethers
 //Client initialization example and dumping API Keys
 
